@@ -11,59 +11,59 @@ export const END_HOME_RESUME: Resume = {
   profile: {
     name: "Emilton Francisco Nhampossa",
     summary:
-      "Software engineer obsessed with building exceptional products that people love",
+      "Engenheiro de software obcecado em criar produtos excepcionais que as pessoas adoram",
     email: "test@gmail.com",
     phone: "123-456-7890",
     location: "HYD,IND",
-    url: "linkedin.com/in/yourusername",
+    url: "linkedin.com/in/username",
   },
   workExperiences: [
     {
       company: "ABC Company",
-      jobTitle: "Software Engineer",
-      date: "May 2023 - Present",
+      jobTitle: "Engenheiro De Software",
+      date: "Maio 2023 - Presente",
       descriptions: [
-        "Contributed and Collaborated with cross functional teams to build the scalable product consumned by larger audiences",
-        "Contributed and Collaborated with cross functional teams to build the scalable product consumned by larger audiences",
-        "Contributed and Collaborated with cross functional teams to build the scalable product consumned by larger audiences",
+        "Contribuiu e colaborou com equipas multifuncionais para construir o produto escalável consumido por públicos maiores",
+        "Contribuiu e colaborou com equipas multifuncionais para construir o produto escalável consumido por públicos maiores",
+        "Contribuiu e colaborou com equipas multifuncionais para construir o produto escalável consumido por públicos maiores",
       ],
     },
     {
       company: "DEF Organizacao",
-      jobTitle: "Software Engineer",
-      date: "May 2022 - May 2023",
+      jobTitle: "Engenheiro De Software",
+      date: "Maio 2022 - Maio 2023",
       descriptions: [
-        "Contributed and Collaborated with cross functional teams to build the scalable product consumned by larger audiences",
-        "Contributed and Collaborated with cross functional teams to build the scalable product consumned by larger audiences",
-        "Contributed and Collaborated with cross functional teams to build the scalable product consumned by larger audiences",
+        "Contribuiu e colaborou com equipas multifuncionais para construir o produto escalável consumido por públicos maiores",
+        "Contribuiu e colaborou com equipas multifuncionais para construir o produto escalável consumido por públicos maiores",
+        "Contribuiu e colaborou com equipas multifuncionais para construir o produto escalável consumido por públicos maiores",
       ],
     },
     {
       company: "XYZ Company",
-      jobTitle: "Software Engineer",
-      date: "May 2021 - May 2022",
+      jobTitle: "Engenheiro De Software",
+      date: "Maio 2021 - Maio 2022",
       descriptions: [
-        "Contributed and Collaborated with cross functional teams to build the scalable product consumned by larger audiences",
+        "Contribuiu e colaborou com equipas multifuncionais para construir o produto escalável consumido por públicos maiores",
       ],
     },
   ],
   educations: [
     {
       school: "XYZ Universidade",
-      degree: "Bachelor of Science in Computer Science",
-      date: "Sep 2018 - Aug 2024",
+      degree: "Licenciatura em Ciência da Computação",
+      date: "Setembro 2018 - Agosto 2024",
       gpa: "8.55",
       descriptions: [
-        "Contributed and Collaborated with cross functional teams to build the scalable product consumned by larger audiences",
+        "Contribuiu e colaborou com equipas multifuncionais para construir o produto escalável consumido por públicos maiores",
       ],
     },
   ],
   projects: [
     {
-      project: "Project1",
-      date: "Fall 2021",
+      project: "Projecto 1",
+      date: "Outono 2021",
       descriptions: [
-        "Contributed and Collaborated with cross functional teams to build the scalable product consumned by larger audiences",
+        "Contribuiu e colaborou com equipas multifuncionais para construir o produto escalável consumido por públicos maiores",
       ],
     },
   ],
@@ -75,7 +75,7 @@ export const END_HOME_RESUME: Resume = {
     ],
     descriptions: [
       "Tech: React Hooks, GraphQL, Node.js, SQL, Postgres, NoSql, Redis, REST API, Git",
-      "Soft: Teamwork, Creative Problem Solving, Communication, Learning Mindset, Agile",
+      "Soft: Trabalho em equipa, resolução criativa de problemas, comunicação, mentalidade de aprendizagem, ágil",
     ],
   },
   custom: {
