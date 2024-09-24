@@ -60,8 +60,8 @@ export const AutoTypingResume = () => {
                 ? "EXPERIENCIA DE TRABALHO"
                 : "",
               educations: resume.educations[0].school ? "EDUCACAO" : "",
-              projects: resume.projects[0].project ? "PROJECT" : "",
-              skills: resume.skills.featuredSkills[0].skill ? "SKILLS" : "",
+              projects: resume.projects[0].project ? "PROJETOS" : "",
+              skills: resume.skills.featuredSkills[0].skill ? "HABILIDADES" : "",
               custom: "SEÇÃO PERSONALIZADA",
             },
           }}
