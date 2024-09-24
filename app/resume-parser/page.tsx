@@ -16,11 +16,11 @@ import { readPdf } from "../lib/parse-resume-from-pdf/read-pdf";
 
 const RESUME_EXAMPLES = [
   {
-    fileUrl: "/resume-example/public-resume.pdf",
+    fileUrl: "resume-example/public-resume.pdf",
     description: <span>Retirado de fontes públicas</span>,
   },
   {
-    fileUrl: "/resume-example/inhouse-resume.pdf",
+    fileUrl: "resume-example/inhouse-resume.pdf",
     description: (
       <span>
         Criado com o Construtor de Currículos  -{" "}
