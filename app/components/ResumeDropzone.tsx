@@ -115,7 +115,7 @@ const ResumeDropzone = ({
           <Image
             src={addPdfSrc}
             className="mx-auto h-14 w-14"
-            alt="Adicionar PDF"
+            alt="Add Pdf"
             aria-hidden="true"
             priority
           />
@@ -128,11 +128,11 @@ const ResumeDropzone = ({
                 !playgroundView && "text-lg font-semibold"
               )}
             >
-              Navegue por um arquivo PDF ou arraste-o aqui
+              Browse a pdf file or drop it here
             </p>
             <p className="flex text-sm text-gray-500">
               <LockClosedIcon className="mr-1 mt-1 h-3 w-3 text-gray-400" />
-              Os dados do arquivo são usados localmente e nunca saem do seu navegador
+              File data is used locally and never leaves your browser
             </p>
           </>
         ) : (
@@ -143,7 +143,7 @@ const ResumeDropzone = ({
             <button
               type="button"
               className="outline-theme-blue rounded-md p-1 text-gray-400 hover:bg-gray-100 hover:text-gray-500"
-              title="Remover arquivo"
+              title="Remove file"
               onClick={onRemove}
             >
               <XMarkIcon className="h-6 w-6" />
@@ -159,7 +159,7 @@ const ResumeDropzone = ({
                   playgroundView ? "border" : "bg-primary"
                 )}
               >
-                Navegar arquivo
+                Browse file
                 <input
                   type="file"
                   className="sr-only"
@@ -168,7 +168,7 @@ const ResumeDropzone = ({
                 />
               </label>
               {hasNonPdfFile && (
-                <p className="mt-6 text-red-400">Apenas arquivos PDF são suportados</p>
+                <p className="mt-6 text-red-400">Only pdf file is supported</p>
               )}
             </>
           ) : (
@@ -179,12 +179,12 @@ const ResumeDropzone = ({
                   className="btn-primary"
                   onClick={onImportClick}
                 >
-                  Importar e Continuar
+                  Import and Continue
                 </button>
               )}
               <p className={cx("text-gray-500", !playgroundView && "mt-6")}>
-                Nota: {!playgroundView ? "A importação" : "O parser"} funciona melhor em
-                currículos de coluna única
+                Note: {!playgroundView ? "Import" : "Parser"} works best on
+                single column resume
               </p>
             </>
           )}
