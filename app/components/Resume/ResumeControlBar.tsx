@@ -64,7 +64,7 @@ const ResumeControlBar = ({
         download={fileName}
       >
         <ArrowDownTrayIcon className="h-4 w-4" />
-        <span className="whitespace-nowrap">Download CV</span>
+        <span className="whitespace-nowrap">Download Resume</span>
       </a>
     </div>
   );
