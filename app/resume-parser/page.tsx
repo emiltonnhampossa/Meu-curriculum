@@ -47,7 +47,7 @@ export default function ResumeParser() {
           <FlexboxSpacer maxWidth={45} className="hidden md:block" />
           <section className="max-w-[600px] grow">
             <Heading className="text-primary !mt-4">
-              Resume Parser Playground
+            Área de Testes de Análise de Currículos
             </Heading>
             <Paragraph smallMarginTop={true}>
               Adicione seu currículo abaixo para analisar como ele seria interpretado por sistemas de rastreamento de candidatos (ATS)
