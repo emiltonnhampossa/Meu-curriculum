@@ -1,7 +1,8 @@
 const STEPS = [
   { title: "Adicione o cv pdf", text: "ou cria do zero" },
-  { title: "Preview design", text: "and make edits" },
-  { title: "Download novo cv", text: "and apply with confidence" },
+  { "title": "Pré-visualizar design", "text": "e fazer edições" },
+  { "title": "Descarregar novo CV", "text": "e candidatar-se com confiança" }
+  
 ];
 
 export const Steps = () => {
